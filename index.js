@@ -51,11 +51,6 @@ function createMainWindow() {
     });
 
     // Quits app if all windows are closed.
-    // TODO: Prevent error from occurring when closing
-    mainWindow.on('closed', () => {
-        mainWindow = null;
-    });
-      
     app.on('window-all-closed', () => {
         if (process.platform !== 'darwin') {
             app.quit();
