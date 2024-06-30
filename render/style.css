@@ -23,6 +23,10 @@ body{
     border: none;
 }
 
+#buttons {
+    -webkit-app-region: no-drag;
+}
+
 button {
     margin-left: 10px;
 }
