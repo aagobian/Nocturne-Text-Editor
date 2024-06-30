@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="title-bar"> 
+    <div id="title-bar">
+        <div id="function-btns">
+            <button id="fnc-btn">File</button>
+        </div>
         <div id="buttons"> <!--Adds close, maximize, and minimize button functionality.-->
             <button onclick="electron.controlWindow('close')">Close</button>
             <button onclick="electron.controlWindow('maximize')">Maximize</button>
@@ -18,7 +21,7 @@
 <div id="Main-Container">
         <textarea id="Text-Field" placeholder="Start Writing..."></textarea>
         <div id="File-Holder">
-            
+
         </div>
 </div>
 <script src="/js/rerender.js"></script>
