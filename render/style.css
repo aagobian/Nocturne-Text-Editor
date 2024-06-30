@@ -14,7 +14,7 @@ body{
 }
 
 /* Buttons */
-#fnc-btn { 
+#file-btn { 
     color: white;
     text-align: center;
     width: 40px;
@@ -27,8 +27,31 @@ body{
     -webkit-app-region: no-drag;
 }
 
-button {
-    margin-left: 10px;
+#buttons img {
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+}
+
+#gray-btns:hover {
+    background-color: #888;
+    opacity: 0.9;
+}
+
+#close-btn {
+    -webkit-app-region: no-drag;
+}
+
+#close-btn img {
+    width: 24px;
+    height: auto;
+    cursor: pointer;
+    
+}
+
+#close-btn:hover {
+    background-color: red;
+    opacity: 0.9;
 }
 
 #Text-Field{
@@ -50,8 +73,6 @@ button {
     overflow: hidden;
       
 }
-
-
 
 #File-Holder {
     transform: translateY(-85.5vh);
@@ -83,4 +104,3 @@ button {
     border-radius: 10px; /* Rounded corners of the scrollbar track */
     box-shadow: inset 0 0 5px grey; /* Inner shadow on the scrollbar track */
 }
-

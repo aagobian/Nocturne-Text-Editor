@@ -10,12 +10,12 @@
 <body>
     <div id="title-bar">
         <div id="function-btns">
-            <button id="fnc-btn">File</button>
+            <button id="file-btn">File</button>
         </div>
         <div id="buttons"> <!--Adds close, maximize, and minimize button functionality.-->
-            <button onclick="electron.controlWindow('close')">Close</button>
-            <button onclick="electron.controlWindow('maximize')">Maximize</button>
-            <button onclick="electron.controlWindow('minimize')">Minimize</button> 
+            <img id="gray-btns" src="../icons/minimize.svg" onclick="electron.controlWindow('minimize')" alt="Minimize">
+            <img id="gray-btns" src="../icons/maximize.svg" onclick="electron.controlWindow('maximize')" alt="Maximize">
+            <img id="close-btn" src="../icons/close.svg" onclick="electron.controlWindow('close')" alt="Close">
         </div>
     </div>
 <div id="Main-Container">
@@ -24,6 +24,6 @@
 
         </div>
 </div>
-<script src="/js/rerender.js"></script>
+<script src="/js/main.js"></script>
 </body>
 </html>
