@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="title-bar"> 
+        <div id="buttons"> <!--Adds close, maximize, and minimize button functionality.-->
+            <button onclick="electron.controlWindow('close')">Close</button>
+            <button onclick="electron.controlWindow('maximize')">Maximize</button>
+            <button onclick="electron.controlWindow('minimize')">Minimize</button> 
+        </div>
+    </div>
     <div id="Text-Area-Container">
         <textarea id="Text-Field" placeholder="Start Writing..."></textarea> 
 </div>

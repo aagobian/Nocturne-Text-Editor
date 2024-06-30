@@ -2,6 +2,25 @@ body{
     background-color: #1A151D;
 }
 
+/* Title Bar */
+#title-bar { 
+    -webkit-app-region: drag; 
+    background-color: #0f0018;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Buttons */
+#buttons { 
+    -webkit-app-region: no-drag;
+}
+
+button {
+    margin-left: 10px;
+}
 
 #Text-Field{
     display: inline-flex;
