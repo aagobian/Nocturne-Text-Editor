@@ -10,7 +10,7 @@ function createMainWindow() {
     });
 
     mainWindow.loadFile(path.join(__dirname, './render/index.html'));
-    
+  
     const contextMenu = Menu.buildFromTemplate([
         {
           label: 'Inspect Element',
