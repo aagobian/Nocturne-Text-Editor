@@ -57,12 +57,26 @@ body{
     opacity: 0.9;
 }
 
+/* MAIN TEXT AREA AND FILE EXPLORER*/
+
+#Main-Container {
+    display: flex;
+}
+
+#file-area{
+    width: 200px;
+    border:1px solid lightblue;
+}
+
+#text-area{
+    flex: 1;
+    /* Grow to rest of container */
+    border:1px solid lightgreen;
+}
+
 #Text-Field{
-    display: inline-flex;
-    transform: translateX(11vw);
-    margin-top: 9vh;
-    width: 80vw;
-    height: 85vh;
+    width: 85vw;
+    height: 93vh;
     color: white;
     font-weight: bold;
     background-color:#161925;
