@@ -12,15 +12,15 @@
         <div id="function-btns">
             <button id="file-btn">File</button>
         </div>
-        <div id="buttons"> <!-- Adds close, maximize, and minimize button functionality. Also adds icons to buttons. -->
-            <div>
-                <img id="gray-btns" src="../icons/minimize.svg" onclick="electron.controlWindow('minimize')" alt="Minimize">
-            </div>
-            <div>
-                <img id="gray-btns" src="../icons/maximize.svg" onclick="electron.controlWindow('maximize')" alt="Maximize">
-            </div>
-            <div>
-                <img id="close-btn" src="../icons/close.svg" onclick="electron.controlWindow('close')" alt="Close">
+        <div id="buttons" class="d-flex flex-row mb-3"> <!-- Adds close, maximize, and minimize button functionality. Also adds icons to buttons. -->
+            <div id="gray-hover" onclick="electron.controlWindow('minimize')">    
+                <img id="gray-btns" class="d-flex justify-content-end" src="../icons/minimize.svg" alt="Minimize">
+            </div>    
+            <div id="gray-hover" onclick="electron.controlWindow('maximize')">   
+                <img id="gray-btns" class="d-flex justify-content-end" src="../icons/maximize.svg" alt="Maximize">
+            </div>    
+            <div id="red-hover" onclick="electron.controlWindow('close')">
+                <img id="close-btn" class="d-flex justify-content-end" src="../icons/close.svg" alt="Close">
             </div>
         </div>
     </div>
@@ -31,7 +31,6 @@
     <div id="text-area">
         <textarea id="Text-Field" placeholder="Start Writing..."></textarea>
     </div>
-        
 </div>
 <script src="/js/main.js"></script>
 </body>

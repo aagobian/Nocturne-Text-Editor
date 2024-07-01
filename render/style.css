@@ -25,34 +25,48 @@ body{
 
 #buttons {
     -webkit-app-region: no-drag;
+    display: flex;
 }
 
 #buttons img {
-    width: 36px;
+    width: 12px;
     height: auto;
     cursor: pointer;
-    margin-left: -5px;
-    margin-bottom: 10px;
     transition: fill 0.3s, color 0.3s;
     fill: #ff00d9;
 }
 
-#gray-btns:hover {
+/* #gray-btns:hover {
     background-color: #88888844;
     opacity: 0.9;
-}
+} */
 
 #close-btn {
     -webkit-app-region: no-drag;
 }
 
 #close-btn img {
-    width: 24px;
+    width: 36px;
     height: auto;
     cursor: pointer;
 }
 
-#close-btn:hover {
+#gray-hover {
+    width: 36px;
+    height: 36px;
+}
+
+#gray-hover:hover {
+    background-color: #88888844;
+    opacity: 0.9;
+}
+
+#red-hover {
+    width: 36px;
+    height: 36px;
+}
+
+#red-hover:hover {
     background-color: red;
     opacity: 0.9;
 }
