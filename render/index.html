@@ -11,8 +11,15 @@
 
     
     <div id="title-bar">
-        <div id="function-btns">
-            <button id="file-btn">File</button>
+        <div id="function-btns" class="d-flex flex-row mb-3">
+            <button id="file-btn" class="d-flex justify-content-start">File</button>
+            <button id="edit-btn" class="d-flex justify-content-start">Edit</button>
+            <button id="selection-btn" class="d-flex justify-content-start">Selection</button>
+            <button id="view-btn" class="d-flex justify-content-start">View</button>
+            <button id="go-btn" class="d-flex justify-content-start">Go</button>
+            <button id="run-btn" class="d-flex justify-content-start">Run</button>
+            <button id="terminal-btn" class="d-flex justify-content-start">Terminal</button>
+            <button id="window-btn" class="d-flex justify-content-start">Window</button>
         </div>
         <div id="buttons" class="d-flex flex-row mb-3"> <!-- Adds close, maximize, and minimize button functionality. Also adds icons to buttons. -->
             <div id="gray-hover" onclick="electron.controlWindow('minimize')">    

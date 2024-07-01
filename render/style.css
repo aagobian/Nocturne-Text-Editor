@@ -14,13 +14,66 @@ body{
 }
 
 /* Buttons */
-#file-btn { 
-    color: white;
-    text-align: center;
-    width: 40px;
-    height: 40px;
+#function-btns { 
+    width: 24px;
+    height: 24px;
+    padding-left: 24px;
+}
+
+#file-btn {
+    color: #D39EC1;
     background-color: transparent;
     border: none;
+    font-size: small;
+}
+
+#edit-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+#selection-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+#view-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+#go-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+#run-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+#terminal-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
+}
+
+#window-btn {
+    color: #D39EC1;
+    background-color: transparent;
+    border: none;
+    font-size: small;
 }
 
 #buttons {
@@ -33,7 +86,6 @@ body{
     height: auto;
     cursor: pointer;
     transition: fill 0.3s, color 0.3s;
-    fill: #ff00d9;
 }
 
 #close-btn {
@@ -61,6 +113,7 @@ body{
 #gray-hover:hover {
     background-color: #88888844;
     opacity: 0.9;
+    transition: 0.3s
 }
 
 #red-hover {
@@ -71,6 +124,7 @@ body{
 #red-hover:hover {
     background-color: red;
     opacity: 0.9;
+    transition: 0.3s;
 }
 
 /* MAIN TEXT AREA AND FILE EXPLORER*/
