@@ -12,10 +12,16 @@
         <div id="function-btns">
             <button id="file-btn">File</button>
         </div>
-        <div id="buttons"> <!--Adds close, maximize, and minimize button functionality.-->
-            <img id="gray-btns" src="../icons/minimize.svg" onclick="electron.controlWindow('minimize')" alt="Minimize">
-            <img id="gray-btns" src="../icons/maximize.svg" onclick="electron.controlWindow('maximize')" alt="Maximize">
-            <img id="close-btn" src="../icons/close.svg" onclick="electron.controlWindow('close')" alt="Close">
+        <div id="buttons"> <!-- Adds close, maximize, and minimize button functionality. Also adds icons to buttons. -->
+            <div>
+                <img id="gray-btns" src="../icons/minimize.svg" onclick="electron.controlWindow('minimize')" alt="Minimize">
+            </div>
+            <div>
+                <img id="gray-btns" src="../icons/maximize.svg" onclick="electron.controlWindow('maximize')" alt="Maximize">
+            </div>
+            <div>
+                <img id="close-btn" src="../icons/close.svg" onclick="electron.controlWindow('close')" alt="Close">
+            </div>
         </div>
     </div>
 <div id="Main-Container">
