@@ -36,6 +36,16 @@ body{
     fill: #ff00d9;
 }
 
+#gray-btns {
+    display: block;
+    margin: 20% auto;
+}
+
+#close-btn {
+    display: block;
+    margin: 21% auto ;
+}
+
 /* #gray-btns:hover {
     background-color: #88888844;
     opacity: 0.9;
