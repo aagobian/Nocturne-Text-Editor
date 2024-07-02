@@ -14,66 +14,24 @@ body{
 }
 
 /* Buttons */
-#function-btns { 
-    width: 24px;
-    height: 24px;
-    padding-left: 24px;
+#function-btns {
+    margin-left: 24px ;
+    -webkit-app-region: no-drag;
 }
 
-#file-btn {
+#function-btns button {
     color: #D39EC1;
     background-color: transparent;
-    border: none;
     font-size: small;
+    margin-right: 2px;
+    border: none;
+    margin-bottom: 12px;
 }
 
-#edit-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
-}
-
-#selection-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
-}
-
-#view-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
-}
-
-#go-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
-}
-
-#run-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
-}
-
-#terminal-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
-}
-
-#window-btn {
-    color: #D39EC1;
-    background-color: transparent;
-    border: none;
-    font-size: small;
+#function-btns button:hover {
+    background-color: #88888844;
+    opacity: 0.9;
+    transition: background-color 0.3s, opacity 0.3s;
 }
 
 #buttons {
@@ -161,12 +119,12 @@ body{
       
 }
 
-#File-Holder {
+/* #File-Holder {
     transform: translateY(-85.5vh);
     width: 10vw;
     height: 85vh;
     border: 1px solid #371D33;
-}
+} */
 
 
 /* SCROLL BAR */
