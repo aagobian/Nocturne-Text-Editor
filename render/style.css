@@ -91,18 +91,18 @@ body{
     display: flex;
 }
 
-#file-area{
+#file-area {
     width: 200px;
     border:1px solid #973e71;
 }
 
-#text-area{
+#text-area {
     flex: 1;
     /* Grow to rest of container */
     border:1px solid #973e71;
 }
 
-#Text-Field{
+#Text-Field {
     width: 85vw;
     height: 93vh;
     color: white;
@@ -115,8 +115,7 @@ body{
     padding-left: 20px;
     padding-right: 10px;
     letter-spacing: 2px;
-    overflow: hidden;
-      
+    overflow: hidden; 
 }
 
 /* #File-Holder {
