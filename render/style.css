@@ -20,7 +20,7 @@ body{
 }
 
 #function-btns button {
-    color: #D39EC1;
+    color: #973e71;
     background-color: transparent;
     font-size: small;
     margin-right: 2px;
@@ -34,12 +34,12 @@ body{
     transition: background-color 0.3s, opacity 0.3s;
 }
 
-#buttons {
+#window-control-btns {
     -webkit-app-region: no-drag;
     display: flex;
 }
 
-#buttons img {
+#window-control-btns img {
     width: 12px;
     height: auto;
     cursor: pointer;
@@ -93,13 +93,13 @@ body{
 
 #file-area{
     width: 200px;
-    border:1px solid lightblue;
+    border:1px solid #973e71;
 }
 
 #text-area{
     flex: 1;
     /* Grow to rest of container */
-    border:1px solid lightgreen;
+    border:1px solid #973e71;
 }
 
 #Text-Field{
@@ -108,7 +108,7 @@ body{
     color: white;
     font-weight: bold;
     background-color:#161925;
-    border: 1px solid #371D33;
+    border: 1px solid #973e71;
     border-bottom: none;
     outline: none;
     resize: none;
@@ -134,18 +134,18 @@ body{
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #888; /* Color of the scrollbar thumb */
+    background-color: #973e71; /* Color of the scrollbar thumb */
     border-radius: 10px;    /* Rounded corners of the scrollbar thumb */
-    border: 3px solid #f1f1f1; /* Space around the scrollbar thumb */
+    border: 3px solid #161925; /* Space around the scrollbar thumb */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #555; /* Color of the scrollbar thumb when hovered */
+    background-color: #371D33; /* Color of the scrollbar thumb when hovered */
     cursor: default;
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1; /* Color of the scrollbar track */
+    background: #161925; /* Color of the scrollbar track */
     border-radius: 10px; /* Rounded corners of the scrollbar track */
-    box-shadow: inset 0 0 5px grey; /* Inner shadow on the scrollbar track */
+    box-shadow: inset 0 0 5px #371D33; /* Inner shadow on the scrollbar track */
 }

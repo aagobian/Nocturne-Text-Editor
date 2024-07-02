@@ -28,8 +28,8 @@ function createMainWindow() {
         ]);
 
         mainWindow.webContents.on('context-menu', (event) => {
-        event.preventDefault();
-        contextMenu.popup();
+            event.preventDefault();
+            contextMenu.popup();
         });
       
     // Event listener for header buttons.
@@ -49,6 +49,7 @@ function createMainWindow() {
             mainWindow.close();
         }
     });
+    
 
     // Quits app if all windows are closed.
     app.on('window-all-closed', () => {
