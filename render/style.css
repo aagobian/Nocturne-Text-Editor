@@ -102,6 +102,23 @@ body{
     border:1px solid #973e71;
 }
 
+#search-bar { 
+    width: auto;
+    height: auto;
+    background-color: #161925;
+    color: #161925;
+    border: 1px solid #973e71;
+    margin-right: 165px;
+}
+
+#search-input {
+    width: 500px;
+    height: 100%;
+    background-color: #161925;
+    border: none;
+    outline: none;
+}
+
 #Text-Field {
     width: 85vw;
     height: 93vh;
@@ -117,6 +134,7 @@ body{
     letter-spacing: 2px;
     overflow: hidden; 
 }
+
 
 /* #File-Holder {
     transform: translateY(-85.5vh);
