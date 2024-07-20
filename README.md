@@ -14,7 +14,7 @@ Nocturne is a sleek, cross-platform text editor built from scratch using Electro
 
 - Add more functionalities (syntax highlighting, auto-completion, file management, etc.)
 
-- Add live code editing (final)
+- Add live code collaboration
 
 
 ## Authors
